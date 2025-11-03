@@ -10,7 +10,6 @@ def ensure_dirs():
 
 def load_input(path: str) -> str:
     if not os.path.exists(path):
-        # create a small sample if not present
         sample = '''// sample JavaMinusMinus code
 import my.pkg;
 class Main extends BaseClass implements Runnable {
